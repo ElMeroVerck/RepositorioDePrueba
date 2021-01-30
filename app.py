@@ -8,9 +8,7 @@ def home():
     return render_template("Index.html")
 
 
-@app.route("/about")
-def about():
-    return render_template("about.html")
+
 
 
 if __name__ == "__main__":
